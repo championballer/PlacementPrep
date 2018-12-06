@@ -25,30 +25,26 @@ Method 3: Linear Search for each element -> O(n*n)
 */
 
 #include<bits/stdc++.h>
+#include"helper.h"
 
 using namespace std;
-
-#include"helper.h"
 
 void method_correct(int * in, int size)
 {
 	for(int i=0;i<size;)
 	{
 		if(in[i]==-1 || in[i]==i)
-		{	
+		{
 			i++;
+			continue;
 		}
 		else
 		{
 			int temp = in[i];
 			in[i] = in[in[i]];
-			in[temp] = temp;
-			
+			in[in[i]] = temp;
  		}
-
- 		
 	}
-	
 }
 
 int* method1(int * in, int size)
@@ -67,7 +63,6 @@ int* method1(int * in, int size)
 	return out;
 }
 
-//10 -1 -1 6 1 9 3 2 -1 4 -1
 int main()
 {
 	int size;
