@@ -10,9 +10,17 @@ that A[i] = i and if i is not present, display -1 at that place.
 Input : arr = {-1, -1, 6, 1, 9, 3, 2, -1, 4, -1}
 Output : [-1, 1, 2, 3, 4, -1, 6, -1, -1, 9]
 
-Method : Store all elements in a map -> O(n), then search for the index in the map, 
+Correct Method : Iterate over the array, and for each index check whether it is at
+correct position or not. If not then exchange and then check for that element 
+-> O(n) 
+
+Method 1: Store all elements in a map -> O(n), then search for the index in the map, 
 if present then place in the array, else place -1 -> O(n). 
-Net -> O(n)
+Net -> O(n), space complexity -> O(n)
+
+Method 2: Sort array and apply binary search for all indices -> O(nlogn)
+
+Method 3: Linear Search for each element -> O(n*n)
 
 */
 
