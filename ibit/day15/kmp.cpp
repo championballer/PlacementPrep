@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void preprocess(string & ptr, int * arr)
+void (string & ptr, int * arr)
 {
 	arr[0] = 0;
 	int j = 0;
@@ -17,7 +17,7 @@ void preprocess(string & ptr, int * arr)
 
 		else
 		{
-
+			
 		}
 	}
 }
