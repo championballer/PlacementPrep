@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	vector<vector<int> > dp(10,vector<int> (11));
+	vector<vector<int> > dp(10,vector<int> (11,-1));
 	cout<<dp.size()<<" "<<dp[0].size()<<endl;
 
 	for(int i=0;i<dp.size();i++)
