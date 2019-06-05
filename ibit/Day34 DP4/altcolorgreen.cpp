@@ -14,7 +14,8 @@ struct Tree{
         left=NULL ;
         right=NULL ;
     }
-} ;
+};
+
 int k=0 ;
 void createTree(Tree *root,string s,int i)
 {
@@ -111,8 +112,8 @@ vector<int> Solution::solve(string A) {
     // inorder(root) ;
     // preorder(root) ;
     vector<int> ans;
-    int mmax=INT_MIN ;
-    mmax=solveMax(root,1) ;
+    int mmax=INT_MIN;
+    mmax=solveMax(root,1);
     memset(dp,-1,sizeof(dp)) ;
     mmax=max(mmax,solveMax(root,2)) ;
     memset(dp,-1,sizeof(dp)) ;
