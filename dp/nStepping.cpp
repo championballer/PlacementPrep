@@ -3,7 +3,7 @@
 #include <bits/stdc++.h> 
 using namespace std; 
   
-// function that calculates the answer 
+
 long long answer(int n) 
 { 
     // dp[i][j] stores count of i digit 
