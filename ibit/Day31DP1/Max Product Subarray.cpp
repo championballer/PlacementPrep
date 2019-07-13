@@ -1,51 +1,34 @@
 int Solution::maxProduct(const vector<int> &A) {
     
     if(A.size()==0)return 0;
-    int gmax = INT_MIN;
-    int lmax = 0;
-    int lmaxn = 0;
+    int mx_ans = A[0];
+    int current_p = 1;
+    int current_n = 1;
     
     for(int i=0;i<A.size();i++)
     {
-        if(A[i]==0)
+        current_n *= A[i];
+        current_p *= A[i];
+        int temp = current_p;
+        if(current_p<current_n)
         {
-            lmax = 0;
-            lmaxn = 0;
-            
-            if(lmax>gmax)gmax = lmax;
+            swap(current_p,current_n);
+            temp = current_p;
         }
-        
-        else if(A[i]>0)
+        else if(current_p<0)
         {
-            if(lmax==0)lmax=A[i];
-            else lmax*=A[i];
-            lmaxn*=A[i];
-            
-            if(lmax>gmax)gmax=lmax;
+            current_p = 1;
         }
-        
-        else
+        else if(current_p==0)
         {
-            if(lmaxn==0)
-            {
-                int temp = lmaxn;
-                if(temp>lmax)lmax = temp;
-                lmaxn = min(lmax*A[i],A[i]);
-            }
+            current_p = 1;
+            current_n = 1;
             
-            else
-            {
-                int temp = lmaxn*A[i];
-                if(temp>lmax)lmax = temp; 
-                lmaxn = A[i];
-            }
-            
-            if(lmax!=0 && lmax>gmax)gmax=lmax;
-            if(lmaxn>gmax)gmax=lmaxn;
         }
+        if(temp>mx_ans)mx_ans = temp;
         
-        //cout<<i<<" "<<"lmax:"<<lmax<<" lmaxn:"<<lmaxn<<" "<<endl;
+        
     }
     
-    return gmax;
+    return mx_ans;
 }
