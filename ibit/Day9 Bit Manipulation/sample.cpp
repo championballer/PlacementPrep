@@ -22,5 +22,11 @@ int main()
 	
 	for(int i=s1.size()-1;i>=0;i--)cout<<s1[i];
 	cout<<endl;
+	
+	for(int i=0;i<s1.size();i++)
+	{
+		if(s1[i]==1)cout<<s1[i]<<endl;
+	}
+	
 }
 
