@@ -5,6 +5,10 @@
 2. https://www.geeksforgeeks.org/understanding-extern-keyword-in-c/
 3. https://www.geeksforgeeks.org/storage-classes-in-c/
 4. https://www.geeksforgeeks.org/namespace-in-c/
+5. https://www.tutorialspoint.com/cplusplus/cpp_namespacess
+6. https://www.geeksforgeeks.org/precision-of-floating-point-numbers-in-c-floor-ceil-trunc-round-and-setprecision/
+7. https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/
+
 
 ### Important points to remember
 1. enum is a user defined data type which takes only the values defined by the user. For example, 
@@ -19,7 +23,7 @@ cout<<dir<<endl;//3
 
 Used to have a stricter check over the possible values that a variable can undertake.
 
-2. Defining your own namespace. What exactly is namespace.
+2. Defining your own namespace. What exactly is namespace(). Namespace scope can be function specific as well, rather than only being global.
 3. Only one main function per namespace. There can be two if different namespace are defined. Using namespaces variables or functions of the same can be used in the same function. The rule primarily is that there can be only one variable of a certain name in one namespace. Namespace specific variables can be used using scope(::) operator.
 
 Arguments to main through command line.
@@ -54,3 +58,7 @@ IntPtr x, y, z;
 15. Difference between parameters(Mentioned in declaration/definition) and arguments(Actually sent). Declaration of a function needs a semicolon whereas definition doesn't. Declaration doesn't lead to allocation of memory whereas definition does. Therefore multiple declaration is okay, but definition is not. 
 16. Basic idea of operator precedence.
 17. Header file inclusion multiple times.
+18. Precision marker in CPP.
+19. Static variables donot contribute to the size of the class.
+20. Compilation command and flags for cpp.
+21. Compilation, linking and et. all process in cpp.
