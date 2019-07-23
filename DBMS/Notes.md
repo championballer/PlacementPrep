@@ -7,7 +7,12 @@
 # 5. Schedules and Transactions (Basic)
 # 6. Normalisation
 # 7. ER diagram
+# 8. Joins
 
+# Important Links and Repos
+1. 
+
+# Points 
 1. SQL
 	Aggregation functions : MAX, MIN, COUNT, AVG, SUM 
 		Query : select max(salary) from emp;
