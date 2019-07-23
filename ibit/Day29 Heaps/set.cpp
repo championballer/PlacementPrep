@@ -32,4 +32,12 @@ int main()
 	
 	s.erase(s.find(node(2,3)));
 	
+	set<int,greater<int>> ourset;
+	ourset.insert(3);
+	ourset.insert(1);
+	
+	for(auto it = ourset.begin();it!=ourset.end();it++)
+	{
+		cout<<*it<<endl;
+	} 
 }
