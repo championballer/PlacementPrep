@@ -1,18 +1,18 @@
 ## DBMS
 
-# 1. SQL (Nested Queries)	
-# 2. MongoDB
-# 3. SQL vs NOSQL
-# 4. Indexing, B Trees
-# 5. Schedules and Transactions (Basic)
-# 6. Normalisation
-# 7. ER diagram
-# 8. Joins
+### 1. SQL (Nested Queries)	
+### 2. MongoDB
+### 3. SQL vs NOSQL
+### 4. Indexing, B Trees
+### 5. Schedules and Transactions (Basic)
+### 6. Normalisation
+### 7. ER diagram
+### 8. Joins
 
-# Important Links and Repos
+## Important Links and Repos
 1. 
 
-# Points 
+## Points 
 1. SQL
 
 	Note: '=' is used when we need to compare with one value, whereas in is used when we need to check or compare between multiple values in where.<break>
