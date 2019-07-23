@@ -48,5 +48,13 @@ vector<int> arr;
 arr.insert(arr.end(),{1,2,3,4,5});
 ```
 4. isalpha() and isdigit() can be used while processing strings to easily check for alphabets and digits.
+5. reverse(arr.begin(),arr.end()) - to reverse vector or string
+6. max_element(arr.begin(),arr.end()) - to find max in a range of a given array. Returns iterator to element. So dereference to access. 
+7. min_element(arr.begin(),arr.end()) 
+8. accumulate(first\_iterator, last\_iterator, initial value of sum) – Does the summation of vector elements. It is important to mention the initial sum. Doesn't take 0 by default;
+9. count(arr.begin(),arr.end(),element) - Counts the occurrences of element in given range of addresses;
+10. find(arr.begin(),arr.end(),element)
+11. lower\_bound(first\_iterator, last\_iterator, x) – returns an iterator pointing to the first element in the range [first,last) which has a value not less than ‘x’.
+12. upper\_bound(first\_iterator, last\_iterator, x) – returns an iterator pointing to the first element in the range [first,last) which has a value greater than ‘x’.
 
 
