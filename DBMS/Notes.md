@@ -15,7 +15,7 @@
 # Points 
 1. SQL
 
-	Note: '=' is used when we need to compare with one value, whereas in is used when we need to check or compare between multiple values in where.
+	Note: '=' is used when we need to compare with one value, whereas in is used when we need to check or compare between multiple values in where.<break>
 	Note: The attribute used to groupby is the only one which can be mentioned in its select along with aggregate functions applied on any other attribute of the table. Having clause is used with group by rather than where. Having applies condition per group rather than the whole table.
 	Aggregation functions : MAX, MIN, COUNT, AVG, SUM 
 		Query : select max(salary) from emp;
