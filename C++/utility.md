@@ -56,5 +56,11 @@ arr.insert(arr.end(),{1,2,3,4,5});
 10. find(arr.begin(),arr.end(),element)
 11. lower\_bound(first\_iterator, last\_iterator, x) – returns an iterator pointing to the first element in the range [first,last) which has a value not less than ‘x’.
 12. upper\_bound(first\_iterator, last\_iterator, x) – returns an iterator pointing to the first element in the range [first,last) which has a value greater than ‘x’.
+13. distance(set.begin(),set.end()); - can be used to find index of element in set;
+14. stof - used to convert string to float
+15. Precision for floating point numbers can be done using the following syntax.
+```cpp
+cout<<fixed<<setprecision(5)<<endl;
+```
 
 
