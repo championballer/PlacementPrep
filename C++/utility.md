@@ -63,4 +63,6 @@ arr.insert(arr.end(),{1,2,3,4,5});
 cout<<fixed<<setprecision(5)<<endl;
 ```
 
+16. \_\_gcd(a,b);
+
 
