@@ -5,7 +5,7 @@
 ### 3. SQL vs NOSQL
 ### 4. Indexing, B Trees
 ### 5. Schedules and Transactions (Basic)
-### 6. Normalisation
+### 6. Normalisation (Done)
 ### 7. ER diagram
 ### 8. Joins
 
